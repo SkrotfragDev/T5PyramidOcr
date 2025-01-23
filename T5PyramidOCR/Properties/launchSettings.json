@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "T5PyramidOCR": {
+      "commandName": "Project",
+      "commandLineArgs": " c:\\tmp\\a c:\\tmp\\b"
+    }
+  }
+}

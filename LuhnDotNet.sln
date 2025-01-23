@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuhnDotNet", "src\LuhnDotNet.csproj", "{BD5DD1B0-F726-4CB5-9BFD-96A0199F0E5B}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuhnDotNetBenchmark", "benchmark\LuhnDotNetBenchmark.csproj", "{D6AC1AAA-52F8-4116-93A1-C83ED7378BF8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{B398496E-CE54-48FA-BFD4-D6AED0577083}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T5PyramidOCR", "T5PyramidOCR\T5PyramidOCR.csproj", "{AAFA5883-C13D-4B41-A15B-3CDD1F09D9F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{B398496E-CE54-48FA-BFD4-D6AED0577083}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B398496E-CE54-48FA-BFD4-D6AED0577083}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B398496E-CE54-48FA-BFD4-D6AED0577083}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAFA5883-C13D-4B41-A15B-3CDD1F09D9F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAFA5883-C13D-4B41-A15B-3CDD1F09D9F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAFA5883-C13D-4B41-A15B-3CDD1F09D9F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAFA5883-C13D-4B41-A15B-3CDD1F09D9F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
