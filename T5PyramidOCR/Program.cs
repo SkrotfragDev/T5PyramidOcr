@@ -40,7 +40,7 @@ class Program
             }
             string newContent = string.Join(Environment.NewLine, lines);
             string newFilePath = Path.Combine(destinationDirectory, Path.GetFileName(filePath));
-            File.WriteAllText(newFilePath, newContent,Encoding.UTF8);
+            File.WriteAllText(newFilePath, newContent, Encoding.GetEncoding(28591) );
         });
     }
 }
