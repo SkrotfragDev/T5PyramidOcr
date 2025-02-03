@@ -28,7 +28,8 @@ class Program
 
         Directory.EnumerateFiles(sourceDirectory, "*.txt").ToList().ForEach(filePath =>
         {
-            string content = File.ReadAllText(filePath);
+            string content = File.ReadAllText(filePath, Encoding.GetEncoding(28591));
+            
             string[] lines = content.Split(new[] { Environment.NewLine }, StringSplitOptions.None);
             for (int i = 0; i < lines.Length; i++)
             {
@@ -61,6 +62,7 @@ class Program
             string newContent = string.Join(Environment.NewLine, lines);
             string newFilePath = Path.Combine(destinationDirectory, Path.GetFileName(filePath));
             File.WriteAllText(newFilePath, newContent, Encoding.GetEncoding(28591));
+
         });
     }
 }

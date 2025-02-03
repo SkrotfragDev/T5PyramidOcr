@@ -1,7 +1,8 @@
 {
   "profiles": {
     "T5PyramidOCR": {
-      "commandName": "Project"
+      "commandName": "Project",
+      "commandLineArgs": "C:\\tmp\\py\\ C:\\tmp\\py2 1"
     }
   }
 }
