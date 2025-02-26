@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "Windows
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T5PyramidOCR", "T5PyramidOCR\T5PyramidOCR.csproj", "{AAFA5883-C13D-4B41-A15B-3CDD1F09D9F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountNumberValidator.Core", "..\BankCheckSwantzterTs\AccountNumberValidator.Core\AccountNumberValidator.Core.csproj", "{BACD39F0-DB59-4C1F-8D06-7AE589C873BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{AAFA5883-C13D-4B41-A15B-3CDD1F09D9F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAFA5883-C13D-4B41-A15B-3CDD1F09D9F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAFA5883-C13D-4B41-A15B-3CDD1F09D9F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BACD39F0-DB59-4C1F-8D06-7AE589C873BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BACD39F0-DB59-4C1F-8D06-7AE589C873BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BACD39F0-DB59-4C1F-8D06-7AE589C873BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BACD39F0-DB59-4C1F-8D06-7AE589C873BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

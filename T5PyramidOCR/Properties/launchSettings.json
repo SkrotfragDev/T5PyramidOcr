@@ -2,7 +2,7 @@
   "profiles": {
     "T5PyramidOCR": {
       "commandName": "Project",
-      "commandLineArgs": "C:\\tmp\\py\\ C:\\tmp\\py2 1"
+      "commandLineArgs": "from=\"C:\\tmp\\py\" to=\"C:\\tmp\\py2\" validateBank=0 replaceOCR=0\r\n replaceFA=0"
     }
   }
 }
